@@ -1,0 +1,88 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+nav {
+    padding: 0 80px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    box-shadow: 0px 3px 8px -8px #000;
+    background-color: #fafafaf5;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+nav svg {
+    width: 100px;
+}
+
+.top {
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.active {
+    color: rgb(255, 0, 0);
+}
+
+.nav_links,
+.nav_rechts {
+    margin: 10px;
+}
+
+.nav_rechts a {
+    font-size: 1em;
+    padding: 10px 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav_links a {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+}
+
+.tagone {
+    height: 100vh;
+    background-color: black;
+}
+
+.tagtwo {
+    height: 100vh;
+    background-color: gray;
+}
+
+.tagthree {
+    height: 100vh;
+    background-color: white;
+}
